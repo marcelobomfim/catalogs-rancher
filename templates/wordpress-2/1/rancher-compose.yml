@@ -1,0 +1,22 @@
+version: '2'
+.catalog:
+  name: Wordpress-2
+  version: 0.0.2-wordpress-rancher
+  description: |
+    O sistema de gerenciamento de conteúdo rico do WordPress pode utilizar plugins, widgets e temas.
+  minimum_rancher_version: v0.56.0
+  maintainer: "Marcelo Bomfim"
+  questions:
+      - variable: "http_port"
+        description: "Porta HTTP que será exposta:"
+        label: "Porta HTTP:"
+        required: true
+        default: 80
+        type: "int"
+
+services:
+
+    wordpress:
+        scale: 1
+    db:
+        scale: 1

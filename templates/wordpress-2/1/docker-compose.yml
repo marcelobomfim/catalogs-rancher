@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+    wordpress:
+      image: wordpress
+      links:
+        - db:mysql
+      ports:
+        - ${http_port}:80
+      stdin_open: true
+      tty: true
+    db:
+      image: mariadb
+      environment:
+        MYSQL_ROOT_PASSWORD: 'asdfewfaefasfdasdfdsf'
