@@ -1,9 +1,0 @@
----
-name: Dokuwiki
-description: Software utilizado para armazenar documentação.
-version:  v0.2-dokuwiki
-category: Wiki
-maintainer: Dirceu Silva <contato@dirceusilva.com>
-license: GNU GPL v3
-projectURL:
- https://github.com/contato318/catalogs-rancher-dirceusilva/

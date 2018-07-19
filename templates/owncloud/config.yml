@@ -1,9 +1,0 @@
----
-name: Owncloud
-description: >
-  Repositório de arquivos.
-version: v0.1-owncloud
-category: Repositório
-maintainer: Luiz Henrique <luiz@madeiracampos.com>
-license: GNU GPL v3
-projectURL: https://github.com/luiz-madeira/catalogs-rancher
