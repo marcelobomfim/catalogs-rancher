@@ -1,6 +1,6 @@
 version: '2'
 .catalog:
-  name: Wordpress
+  name: Wordpress-2
   version: 0.0.1-wordpress-rancher
   description: |
     O sistema de gerenciamento de conteúdo rico do WordPress pode utilizar plugins, widgets e temas.
