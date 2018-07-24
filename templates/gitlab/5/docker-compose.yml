@@ -16,7 +16,7 @@ services:
     labels:
       io.rancher.container.hostname_override: container_name
     image: gitlab/gitlab-ce:10.1.3-ce.0
-    #volumes:
+   # volumes:
     #  - gitlab-app-data:/var/opt/gitlab
     #  - gitlab-log-data:/var/log/gitlab
     #  - gitlab-conf-files:/etc/gitlab
