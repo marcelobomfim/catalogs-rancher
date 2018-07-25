@@ -1,6 +1,6 @@
 .catalog:
   name: Gitlab Community
-  version: 10.1.3-ce.0.4
+  version: 10.1.3-ce.0.5
   description: |
     Gitlab CE is a free GitHub alternative
   minimum_rancher_version: v0.56.0
@@ -71,6 +71,14 @@
       type: "enum"
       options:
         - /root/vol_nfs/gitlab/gitlab_config
+    - variable: "GITLAB_OPT"
+      description: "Choose the Volume Driver being used GITLAB_DATA"
+      label: "Volume Driver:"
+      required: true
+      default: local
+      type: "enum"
+      options:
+        - /root/vol_nfs/gitlab/gitlab_opt
 gitlab-server:
   scale: 1
   retain_ip: true

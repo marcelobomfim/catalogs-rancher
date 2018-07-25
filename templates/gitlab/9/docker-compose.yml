@@ -11,6 +11,7 @@ services:
     volumes:
       - ${GITLAB_DATA}:/var/opt/gitlab:rw
       - ${GITLAB_LOG}:/var/log/gitlab:rw
+      - ${GITLAB_OPT}:/opt/gitlab:rw
       - ${GITLAB_CONF}:/etc/gitlab:rw
     environment:
       GITLAB_OMNIBUS_CONFIG: |
