@@ -71,7 +71,6 @@
       type: "enum"
       options:
         - /root/vol_nfs_teste/gitlab/gitlab_config
-		
 gitlab-server:
   scale: 1
   retain_ip: true
